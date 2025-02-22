@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     try{
-      const url = "http://localhost:8080/api/v1/auth/login"
+      const url = "https://product-lqtm.onrender.com/api/v1/auth/login"
       const reasponce = await fetch(url, {
         method: 'POST',
         headers: {
