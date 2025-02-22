@@ -30,7 +30,7 @@ const Signup = () => {
     }
 
     try{
-      const url = "http://localhost:8080/api/v1/auth/signup"
+      const url = "https://product-lqtm.onrender.com/api/v1/auth/signup"
       const reasponce = await fetch(url, {
         method: 'POST',
         headers: {
