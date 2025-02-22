@@ -24,7 +24,7 @@ const Home = () => {
 
   const fetchProducts = async ()=>{
     try{
-      const url ='http://localhost:8080/api/v1/products';
+      const url ='https://product-lqtm.onrender.com/api/v1/products';
       const headers = {
         headers: {
           'Authorization':localStorage.getItem('token')
